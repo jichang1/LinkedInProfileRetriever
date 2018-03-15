@@ -9,7 +9,7 @@ This project automates LinkedIn OAuth2 authentication process in a Python Flask 
   In index.html, change '{client_id}', '{redirect_uri}' and '{scope}' to what your LinkedIn application sets to. 
   In main.py, change {client_id}, {client_secret} to what your application sets to.
   Note if you need full profile info, your need to request r_fullprofile permission from LinkedIn Developers.
-* Create an ssl cert. Place server.crt and server.key in the root directory. See reference http://www.daveoncode.com/2017/05/16/python-recipe-run-flask-app-locally-in-https/
+* Create an ssl cert. Place server.crt and server.key in a directory named "ssl" under the root directory. See reference http://www.daveoncode.com/2017/05/16/python-recipe-run-flask-app-locally-in-https/
 * Run it by hitting F5 in Visual Studio, point your browser to https://localhost:5000
 
 # Python Flask app on Azure App Service Web
