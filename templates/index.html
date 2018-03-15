@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<div class="jumbotron">
+    <h2>LinkedIn Profile Retriever</h2>
+    
+</div>
+
+
+<div class="row">
+    
+    Sign into LinkedIn. By signing in, you agree to retrieve your full profile information.
+
+    <p></p>
+ 
+    <p><a href="https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id=$client_id$&redirect_uri=https%3A%2F%2Flocalhost%3A5000%2Foauth%2Fcallback&state=987654321&scope=r_fullprofile"> <img src="/static/content/Sign-in-Large---Default.png" /></a></p>
+
+  
+</div>
+
+
+{% endblock %}
